@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "turbo": "^1.9.8"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "start:dev": "turbo run dev",
+    "start:prod": "node apps/api/dist/main"
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "license": "MIT",
+  "private": true,
+  "name": "organizer",
+  "version": "1.0.0",
+  "author": "",
+  "description": ""
+}
